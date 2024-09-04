@@ -1,0 +1,18 @@
+body {
+    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+.main {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.links,
+.main-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
