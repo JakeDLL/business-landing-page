@@ -3,16 +3,42 @@ body {
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 header,
+footer,
 .main {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F0FAF8;
 }
 
 .links,
 .main-subtext {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
 }
