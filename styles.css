@@ -18,6 +18,8 @@ footer,
 header {
     justify-content: space-between;
     align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .logo {
@@ -32,13 +34,41 @@ header {
     color: #E5E7EB;
 }
 
-ul {
+.links {
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
+.main {
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
 footer {
     justify-content: center;
     align-items: center;
+}
+
+.main-image {
+    width: 250px;
+    border-radius: 6px;
+}
+
+.main-signup {
+    align-self: flex-start;
+    background-color: #3882F6;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border-width: 0;
+    outline: none;
+    color: #E5E7EB
 }
