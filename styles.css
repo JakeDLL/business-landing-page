@@ -47,6 +47,12 @@ header {
     gap: 15px;
 }
 
+.main-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
 .main-text {
     display: flex;
     flex-direction: column;
@@ -63,7 +69,7 @@ footer {
     border-radius: 6px;
 }
 
-.main-signup {
+.signup {
     align-self: flex-start;
     background-color: #3882F6;
     padding: 10px 15px;
@@ -71,4 +77,22 @@ footer {
     border-width: 0;
     outline: none;
     color: #E5E7EB
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
 }
