@@ -76,7 +76,7 @@ footer {
     border-radius: 6px;
     border-width: 0;
     outline: none;
-    color: #E5E7EB
+    color: #F9FAF8
 }
 
 .info {
@@ -93,12 +93,39 @@ footer {
 
 .cards {
     display: flex;
-    align-items: center;
-    gap: 36px;
+    align-items: flex-start;
+    gap: 26px;
     justify-content: center;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .card {
-    max-width: 250px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+
+.card-img {
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+    border-width: 4px;
+}
+
+blockquote {
+    background: #E5E7EB;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0;
+}
+
+.quote-text {
+    max-width: 600px;
+}
+
+.quote-author {
+    text-align: right;
 }
